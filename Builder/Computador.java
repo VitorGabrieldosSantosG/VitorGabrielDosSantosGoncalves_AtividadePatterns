@@ -49,7 +49,7 @@ public class Computador {
     @Override
     public String toString() {
         return "processador=" + processador + "\nmemoriaRAM=" + memoriaRAM + "\narmazenamento="
-                + armazenamento + "\nplacaDeVideo=" + placaDeVideo + "\nsistemaOperacional=" + sistemaOperacional;
+                + armazenamento + "\nplacaDeVideo=" + (placaDeVideo != null ? placaDeVideo : "N/A") + "\nsistemaOperacional=" + (sistemaOperacional != null ? sistemaOperacional : "N/A");
     }
 
     
