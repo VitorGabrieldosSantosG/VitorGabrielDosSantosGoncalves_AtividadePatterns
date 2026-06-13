@@ -9,7 +9,7 @@ public class Application {
     }
 
     public void run(){
-        logger.info("Iniciando aplicação.");
-        logger.error("Falha ao conectar no banco.");
+        logger.info("Iniciando aplicação");
+        logger.error("Falha ao conectar no banco");
     }
 }

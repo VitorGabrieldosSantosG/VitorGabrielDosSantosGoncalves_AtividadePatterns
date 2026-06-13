@@ -7,7 +7,7 @@ public class Computador {
     private String placaDeVideo;
     private String sistemaOperacional;
 
-    public Computador(String processador, String memoriaRAM, String armazenamento, String placaDeVideo, String sistemaOperacional) {
+    protected Computador(String processador, String memoriaRAM, String armazenamento, String placaDeVideo, String sistemaOperacional) {
         this.processador = processador;
         this.memoriaRAM = memoriaRAM;
         this.armazenamento = armazenamento;
